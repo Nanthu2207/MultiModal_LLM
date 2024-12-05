@@ -48,8 +48,11 @@ generation requests.
   
 # Technology Used
    1. Deep Learning
-   2. Python
+      
+   3. Python
+      
    3.LLM
+   
    4.Transformer
 
 # PACKAGES AND LIBRARIES
