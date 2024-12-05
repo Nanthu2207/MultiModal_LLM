@@ -1,6 +1,5 @@
 # TransArt: A Multimodal Application for Vernacular Language Translation and Image Synthesis
-        
-        To develop a web-based application that first translates text from Tamil to English and then uses the translated text to generate relevant images. This application aims to demonstrate the
+To develop a web-based application that first translates text from Tamil to English and then uses the translated text to generate relevant images. This application aims to demonstrate the
 seamless integration of language translation and creative AI to produce visual content from
 textual descriptions.
 
@@ -18,6 +17,7 @@ textual descriptions.
 # Approach
 
 1. Model Selection:
+
       ○ Select a robust Tamil to English translation model from Hugging Face, such as
 for example Helsinki-NLP/opus-mt-ta-en.
 
@@ -27,19 +27,21 @@ CompVis/stable-diffusion-v1-4, to generate images from the translated text.
       ○ Integrate a text generation model like gpt-3 or gpt-neo or google
 gemini api for producing creative English text based on the translated input.
 
-3. Application Development:
-4. 
+2. Application Development:
+    
       ○ Build the app using gradio or stremlit to handle translation and image
 generation requests.
 
-5. Integration and Testing:
-
-6. 
+3. Integration and Testing:
+ 
       ○ Integrate the Hugging Face models using their APIs.
+   
       ○ Conduct thorough testing to ensure accurate translations and image relevance.
 
 7. Deployment:
+   
      ○ Deploy the application on Hugging Face Spaces or AWS.
    
-8. Security and Compliance:
+9. Security and Compliance:
+    
      ○ Ensure data protection and compliance with relevant standards.
