@@ -45,3 +45,19 @@ generation requests.
 9. Security and Compliance:
     
      *  Ensure data protection and compliance with relevant standards.
+  
+# Technology Used
+   1. Deep Learning
+   2. Python
+   3.LLM
+   4.Transformer
+
+# PACKAGES AND LIBRARIES
+   import torch
+   import gradio as gr
+   import tempfile
+   import os
+   from transformers import pipeline, GPTNeoForCausalLM, GPT2Tokenizer
+   import requests
+   from PIL import Image
+   import io
