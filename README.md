@@ -51,9 +51,9 @@ generation requests.
       
    3. Python
       
-   3.LLM
+   3. LLM
    
-   4.Transformer
+   4. Transformer
 
 # PACKAGES AND LIBRARIES
   * import torch
