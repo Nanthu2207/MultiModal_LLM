@@ -53,11 +53,11 @@ generation requests.
    4.Transformer
 
 # PACKAGES AND LIBRARIES
-   import torch
-   import gradio as gr
-   import tempfile
-   import os
-   from transformers import pipeline, GPTNeoForCausalLM, GPT2Tokenizer
-   import requests
-   from PIL import Image
-   import io
+  * import torch
+  * import gradio as gr
+  * import tempfile
+  * import os
+  * from transformers import pipeline, GPTNeoForCausalLM, GPT2Tokenizer
+  * import requests
+  * from PIL import Image
+  * import io
