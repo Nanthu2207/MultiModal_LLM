@@ -18,30 +18,30 @@ textual descriptions.
 
 1. Model Selection:
 
-      ○  Select a robust Tamil to English translation model from Hugging Face, such as
+     *  Select a robust Tamil to English translation model from Hugging Face, such as
 for example Helsinki-NLP/opus-mt-ta-en.
 
-      ○  Choose a reliable text-to-image model, example like
+     *  Choose a reliable text-to-image model, example like
 CompVis/stable-diffusion-v1-4, to generate images from the translated text.
 
-      ○  Integrate a text generation model like gpt-3 or gpt-neo or google
+     *  Integrate a text generation model like gpt-3 or gpt-neo or google
 gemini api for producing creative English text based on the translated input.
 
 2. Application Development:
     
-      ○  Build the app using gradio or stremlit to handle translation and image
+     *  Build the app using gradio or stremlit to handle translation and image
 generation requests.
 
 3. Integration and Testing:
  
-      ○  Integrate the Hugging Face models using their APIs.
-   
-      ○  Conduct thorough testing to ensure accurate translations and image relevance.
+     *  Integrate the Hugging Face models using their APIs.
+
+     *  Conduct thorough testing to ensure accurate translations and image relevance.
 
 7. Deployment:
    
-     ○  Deploy the application on Hugging Face Spaces or AWS.
+     *  Deploy the application on Hugging Face Spaces or AWS.
    
 9. Security and Compliance:
     
-     ○  Ensure data protection and compliance with relevant standards.
+     *  Ensure data protection and compliance with relevant standards.
